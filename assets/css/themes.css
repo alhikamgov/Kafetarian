@@ -1,0 +1,180 @@
+/* ========================================
+   THEMES - Kafetamin
+   ======================================== */
+
+/* ===== TEMA UNGU (Default) ===== */
+body.theme-ungu {
+    --primary: #6C63FF;
+    --primary-dark: #5A52D5;
+    --primary-light: #8B83FF;
+    --primary-gradient: linear-gradient(135deg, #6C63FF 0%, #8B83FF 100%);
+    --secondary: #FF6B6B;
+    --accent: #4ECDC4;
+    --warning: #FFD93D;
+}
+
+body.theme-ungu .navbar-custom {
+    background: linear-gradient(135deg, #6C63FF 0%, #8B83FF 100%) !important;
+}
+body.theme-ungu .kategori-btn.active {
+    background: linear-gradient(135deg, #6C63FF 0%, #8B83FF 100%);
+    border-color: #6C63FF;
+}
+body.theme-ungu .floating-cart {
+    background: linear-gradient(135deg, #6C63FF 0%, #8B83FF 100%);
+}
+body.theme-ungu .btn-pesan {
+    background: linear-gradient(135deg, #4ECDC4 0%, #6EDDD5 100%) !important;
+}
+
+/* ===== TEMA MERAH ===== */
+body.theme-merah {
+    --primary: #E74C3C;
+    --primary-dark: #C0392B;
+    --primary-light: #EC7063;
+    --primary-gradient: linear-gradient(135deg, #E74C3C 0%, #EC7063 100%);
+    --secondary: #F39C12;
+    --accent: #2ECC71;
+    --warning: #F1C40F;
+}
+
+body.theme-merah .navbar-custom {
+    background: linear-gradient(135deg, #E74C3C 0%, #EC7063 100%) !important;
+}
+body.theme-merah .kategori-btn.active {
+    background: linear-gradient(135deg, #E74C3C 0%, #EC7063 100%);
+    border-color: #E74C3C;
+}
+body.theme-merah .floating-cart {
+    background: linear-gradient(135deg, #E74C3C 0%, #EC7063 100%);
+}
+body.theme-merah .btn-pesan {
+    background: linear-gradient(135deg, #2ECC71 0%, #58D68D 100%) !important;
+}
+body.theme-merah .sidebar-wrapper .brand i {
+    color: #E74C3C;
+}
+body.theme-merah .sidebar-wrapper .nav-link.active {
+    border-left-color: #E74C3C;
+    background: rgba(231, 76, 60, 0.2);
+}
+
+/* ===== TEMA HIJAU ===== */
+body.theme-hijau {
+    --primary: #27AE60;
+    --primary-dark: #1E8449;
+    --primary-light: #52BE80;
+    --primary-gradient: linear-gradient(135deg, #27AE60 0%, #52BE80 100%);
+    --secondary: #F39C12;
+    --accent: #3498DB;
+    --warning: #F1C40F;
+}
+
+body.theme-hijau .navbar-custom {
+    background: linear-gradient(135deg, #27AE60 0%, #52BE80 100%) !important;
+}
+body.theme-hijau .kategori-btn.active {
+    background: linear-gradient(135deg, #27AE60 0%, #52BE80 100%);
+    border-color: #27AE60;
+}
+body.theme-hijau .floating-cart {
+    background: linear-gradient(135deg, #27AE60 0%, #52BE80 100%);
+}
+body.theme-hijau .btn-pesan {
+    background: linear-gradient(135deg, #3498DB 0%, #5DADE2 100%) !important;
+}
+body.theme-hijau .sidebar-wrapper .brand i {
+    color: #27AE60;
+}
+body.theme-hijau .sidebar-wrapper .nav-link.active {
+    border-left-color: #27AE60;
+    background: rgba(39, 174, 96, 0.2);
+}
+
+/* ===== TEMA BIRU ===== */
+body.theme-biru {
+    --primary: #2980B9;
+    --primary-dark: #1F618D;
+    --primary-light: #5499C7;
+    --primary-gradient: linear-gradient(135deg, #2980B9 0%, #5499C7 100%);
+    --secondary: #E67E22;
+    --accent: #1ABC9C;
+    --warning: #F1C40F;
+}
+
+body.theme-biru .navbar-custom {
+    background: linear-gradient(135deg, #2980B9 0%, #5499C7 100%) !important;
+}
+body.theme-biru .kategori-btn.active {
+    background: linear-gradient(135deg, #2980B9 0%, #5499C7 100%);
+    border-color: #2980B9;
+}
+body.theme-biru .floating-cart {
+    background: linear-gradient(135deg, #2980B9 0%, #5499C7 100%);
+}
+body.theme-biru .btn-pesan {
+    background: linear-gradient(135deg, #1ABC9C 0%, #48C9B0 100%) !important;
+}
+body.theme-biru .sidebar-wrapper .brand i {
+    color: #2980B9;
+}
+body.theme-biru .sidebar-wrapper .nav-link.active {
+    border-left-color: #2980B9;
+    background: rgba(41, 128, 185, 0.2);
+}
+
+/* ===== TEMA PELANGI ===== */
+body.theme-pelangi .navbar-custom {
+    background: linear-gradient(135deg, #E74C3C 0%, #F39C12 25%, #2ECC71 50%, #3498DB 75%, #9B59B6 100%) !important;
+    animation: pelangiAnim 8s ease infinite;
+    background-size: 400% 400%;
+}
+@keyframes pelangiAnim {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+body.theme-pelangi .kategori-btn.active {
+    background: linear-gradient(135deg, #E74C3C 0%, #F39C12 25%, #2ECC71 50%, #3498DB 75%, #9B59B6 100%);
+    border-color: #E74C3C;
+    animation: pelangiAnim 4s ease infinite;
+    background-size: 400% 400%;
+}
+body.theme-pelangi .floating-cart {
+    background: linear-gradient(135deg, #E74C3C 0%, #F39C12 25%, #2ECC71 50%, #3498DB 75%, #9B59B6 100%);
+    animation: pelangiAnim 4s ease infinite;
+    background-size: 400% 400%;
+}
+body.theme-pelangi .btn-pesan {
+    background: linear-gradient(135deg, #1ABC9C 0%, #2ECC71 50%, #3498DB 100%) !important;
+}
+body.theme-pelangi .sidebar-wrapper .brand i {
+    color: #F39C12;
+}
+body.theme-pelangi .sidebar-wrapper .nav-link.active {
+    border-left-color: #F39C12;
+    background: rgba(243, 156, 18, 0.2);
+}
+body.theme-pelangi .stats-card .icon.bg-purple {
+    background: linear-gradient(135deg, rgba(231, 76, 60, 0.2), rgba(155, 89, 182, 0.2));
+    color: #9B59B6;
+}
+body.theme-pelangi .stats-card .icon.bg-teal {
+    background: linear-gradient(135deg, rgba(46, 204, 113, 0.2), rgba(52, 152, 219, 0.2));
+    color: #2ECC71;
+}
+body.theme-pelangi .stats-card .icon.bg-gold {
+    background: linear-gradient(135deg, rgba(241, 196, 15, 0.2), rgba(243, 156, 18, 0.2));
+    color: #F39C12;
+}
+body.theme-pelangi .stats-card .icon.bg-pink {
+    background: linear-gradient(135deg, rgba(231, 76, 60, 0.2), rgba(243, 156, 18, 0.2));
+    color: #E74C3C;
+}
+body.theme-pelangi .badge.bg-success {
+    background: linear-gradient(135deg, #2ECC71, #3498DB) !important;
+}
+body.theme-pelangi .badge.bg-info {
+    background: linear-gradient(135deg, #3498DB, #9B59B6) !important;
+}
